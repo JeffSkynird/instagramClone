@@ -5,7 +5,7 @@ export default class SearchTab extends React.Component {
   
     render() {
         return (
-          <Text>Hola mundo</Text>
+          <Text>Search tab</Text>
         );
       }
     }
