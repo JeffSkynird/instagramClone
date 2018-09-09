@@ -10,10 +10,8 @@ import ProfileTab from './AppTabNavigator/ProfileTab'
 
 export default class MainScreen extends React.Component {
     static navigationOptions = {
-        headerLeft: <Icon name='ios-camera-outline' style={{paddingLeft:10}}/>,
-        title: 'Instagram',
-        headerRight: <Icon name='ios-send-outline' style={{paddingRight: 10}}/>,
-        headerTitleStyle:{marginLeft:70,alignSelf:'center'},
+        header:null
+
     }
     
   render() {
@@ -56,11 +54,3 @@ const AppTabNavigator = createBottomTabNavigator({
         showIcon: true
 
     }})
-const styles = StyleSheet.create({
-    container: {
-      flex: 1,
-      backgroundColor: '#fff',
-      alignItems: 'center',
-      justifyContent: 'center',
-    },
-  });
